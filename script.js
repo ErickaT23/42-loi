@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Función para iniciar el contador de la fecha del evento
 function iniciarContador() {
-    const eventoFecha = new Date("December 11, 2024 00:00:00").getTime();
+    const eventoFecha = new Date("December 11, 2024 19:30:00").getTime();
 
     setInterval(() => {
         const ahora = new Date().getTime();
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 //Funcion para confirmar la asistencia 
 function confirmarAsistencia() {
-    const mensaje = `Hola, confirmo mi asistencia al fabuloso cumpleaños de nuestra querida Loi`;
+    const mensaje = `Hola, confirmo mi asistencia al fabuloso cumpleaños de nuestra querida Loi, somos #__ personas`;
     const numeroTelefono = '17205929283'; // Reemplaza con el número de WhatsApp al cual se enviará el mensaje
 
     const enlaceWhatsapp = `https://api.whatsapp.com/send?phone=${numeroTelefono}&text=${encodeURIComponent(mensaje)}`;
